@@ -95,6 +95,8 @@ components:
         food:
           type: string
           description: preferred food
+        superhero:
+          $ref: 'http://stoplight-local.com:8080/api/v1/projects/qa-enterprise/edv-design-library/nodes/models/super-pet.yaml?deref=bundle&mid=2'
       required:
         - id
         - name
